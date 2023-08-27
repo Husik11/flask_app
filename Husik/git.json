@@ -1,0 +1,383 @@
+{
+  "What is Git?": {
+    "a": "A programming language",
+    "b": "A version control system",
+    "c": "An operating system",
+    "d": "A web browser",
+    "correct_choice": "b"
+  },
+  "What is the purpose of Git in software development?": {
+    "a": "To compile code",
+    "b": "To manage and track changes to source code",
+    "c": "To design user interfaces",
+    "d": "To test software performance",
+    "correct_choice": "b"
+  },
+  "What is a 'repository' in Git?": {
+    "a": "A type of software bug",
+    "b": "A virtual machine",
+    "c": "A storage location for Git projects and their history",
+    "d": "A programming language feature",
+    "correct_choice": "c"
+  },
+  "What is the purpose of the 'commit' command in Git?": {
+    "a": "To delete a file",
+    "b": "To create a new branch",
+    "c": "To save changes to the local repository",
+    "d": "To merge branches",
+    "correct_choice": "c"
+  },
+  "What does 'pull request' mean in Git terminology?": {
+    "a": "A request to remove a commit from history",
+    "b": "A request to update the Git software",
+    "c": "A request to merge changes from one branch to another",
+    "d": "A request to revert changes in a repository",
+    "correct_choice": "c"
+  },
+  "What is a 'branch' in Git?": {
+    "a": "A physical device used in software development",
+    "b": "A new feature added to a repository",
+    "c": "A parallel line of development separate from the main codebase",
+    "d": "A type of software testing",
+    "correct_choice": "c"
+  },
+  "What is the purpose of 'merge' in Git?": {
+    "a": "To break the code",
+    "b": "To create a new repository",
+    "c": "To combine changes from different branches",
+    "d": "To optimize code execution",
+    "correct_choice": "c"
+  },
+  "What does 'clone' mean in Git?": {
+    "a": "To copy a repository from one location to another",
+    "b": "To delete a branch",
+    "c": "To compress code files",
+    "d": "To rename a file",
+    "correct_choice": "a"
+  },
+  "What is the purpose of 'push' in Git?": {
+    "a": "To publish code to a public repository",
+    "b": "To update the local repository with changes from a remote repository",
+    "c": "To create a new branch",
+    "d": "To search for code errors",
+    "correct_choice": "a"
+  },
+  "What is the command to create a new branch in Git?": {
+    "a": "git create",
+    "b": "git branch",
+    "c": "git new-branch",
+    "d": "git make-branch",
+    "correct_choice": "b"
+  },
+  "What is the purpose of 'git status' command?": {
+    "a": "To display a summary of all commits",
+    "b": "To show changes between commits",
+    "c": "To view the current status of the working directory",
+    "d": "To create a new branch",
+    "correct_choice": "c"
+  },
+  "What does 'git pull' do?": {
+    "a": "It removes all commits from a repository",
+    "b": "It pushes local changes to a remote repository",
+    "c": "It fetches changes from a remote repository and merges them into the local branch",
+    "d": "It creates a new branch",
+    "correct_choice": "c"
+  },
+  "What is a 'conflict' in Git?": {
+    "a": "A feature to track software bugs",
+    "b": "A situation where different branches have conflicting changes",
+    "c": "A way to optimize code execution",
+    "d": "A type of code error",
+    "correct_choice": "b"
+  },
+  "How can you resolve a merge conflict in Git?": {
+    "a": "By deleting the conflicting files",
+    "b": "By choosing one version of the conflicting code and discarding the other",
+    "c": "By ignoring the conflict and continuing with the merge",
+    "d": "By reverting all changes in the conflicting files",
+    "correct_choice": "b"
+  },
+  "What is the purpose of 'git log' command?": {
+    "a": "To display a list of all available Git commands",
+    "b": "To show a summary of all commits",
+    "c": "To view the history of commits in a repository",
+    "d": "To create a new log file",
+    "correct_choice": "c"
+  },
+  "What is a 'remote' in Git?": {
+    "a": "A type of branch",
+    "b": "A command to remove a file",
+    "c": "A reference to a remote server where the repository is stored",
+    "d": "A way to delete a commit",
+    "correct_choice": "c"
+  },
+  "What is 'git stash' used for?": {
+    "a": "To permanently delete files from the repository",
+    "b": "To save changes for later without committing them",
+    "c": "To revert the last commit",
+    "d": "To push changes to a remote repository",
+    "correct_choice": "b"
+  },
+  "What is the purpose of 'git checkout' command?": {
+    "a": "To remove a branch",
+    "b": "To switch between branches",
+    "c": "To create a new repository",
+    "d": "To merge branches",
+    "correct_choice": "b"
+  },
+  "What is a 'tag' in Git?": {
+    "a": "A message added to a commit",
+    "b": "A special type of branch",
+    "c": "A way to mark a specific point in Git history",
+    "d": "A way to encrypt the repository",
+    "correct_choice": "c"
+  },
+  "What is the purpose of 'git blame' command?": {
+    "a": "To display the names of all contributors to a repository",
+    "b": "To identify the author of a specific line of code and the commit that introduced it",
+    "c": "To show a summary of all commits",
+    "d": "To create a new commit",
+    "correct_choice": "b"
+  },
+  "What is the purpose of 'git branch' command?": {
+    "a": "To create a new branch",
+    "b": "To delete a branch",
+    "c": "To list all branches in the repository",
+    "d": "To rename a branch",
+    "correct_choice": "c"
+  },
+  "What is the difference between 'git merge' and 'git rebase'?": {
+    "a": "There is no difference; they perform the same operation",
+    "b": "'git merge' combines commits from two branches, while 'git rebase' moves the entire branch",
+    "c": "'git merge' moves commits from one branch to another, while 'git rebase' combines commits into one",
+    "d": "'git merge' combines commits with a linear history, while 'git rebase' retains the original branching history",
+    "correct_choice": "d"
+  },
+  "How can you undo the last commit in Git without losing changes?": {
+    "a": "By using 'git revert'",
+    "b": "By deleting the last commit",
+    "c": "By using 'git reset'",
+    "d": "By using 'git checkout'",
+    "correct_choice": "a"
+  },
+  "What is a 'pull request' in Git?": {
+    "a": "A request to merge changes from a remote repository to a local one",
+    "b": "A request to undo a previous commit",
+    "c": "A request to create a new branch",
+    "d": "A request to delete a file",
+    "correct_choice": "a"
+  },
+  "What does 'git clone' do?": {
+    "a": "It creates a new repository",
+    "b": "It fetches changes from a remote repository",
+    "c": "It copies a remote repository to a local one",
+    "d": "It deletes a repository",
+    "correct_choice": "c"
+  },
+  "How can you discard changes in a specific file that have not been committed yet?": {
+    "a": "By using 'git discard'",
+    "b": "By using 'git remove'",
+    "c": "By using 'git checkout'",
+    "d": "By using 'git clean'",
+    "correct_choice": "c"
+  },
+  "What is the purpose of '.gitignore' file?": {
+    "a": "To store passwords and sensitive information",
+    "b": "To list all the available Git commands",
+    "c": "To specify files and directories that Git should ignore when tracking changes",
+    "d": "To define the structure of the Git repository",
+    "correct_choice": "c"
+  },
+  "What is the purpose of 'git fetch' command?": {
+    "a": "To fetch changes from a remote repository and merge them into the local branch",
+    "b": "To delete a remote repository",
+    "c": "To create a new branch",
+    "d": "To show a summary of all commits",
+    "correct_choice": "a"
+  },
+  "What is the difference between 'git fetch' and 'git pull'?": {
+    "a": "'git fetch' fetches changes from a remote repository but does not automatically merge them, while 'git pull' fetches changes and merges them into the current branch",
+    "b": "'git fetch' fetches changes and merges them into the current branch, while 'git pull' only fetches changes",
+    "c": "'git fetch' only fetches changes from a remote repository, while 'git pull' fetches changes and creates a new branch",
+    "d": "There is no difference between 'git fetch' and 'git pull'",
+    "correct_choice": "a"
+  },
+  "What is the purpose of 'git remote' command?": {
+    "a": "To create a new remote repository",
+    "b": "To list all remote repositories connected to the current repository",
+    "c": "To push changes to a remote repository",
+    "d": "To fetch changes from a remote repository",
+    "correct_choice": "b"
+  },
+  "What is a 'git stash' and when would you use it?": {
+    "a": "A command to discard changes in the working directory",
+    "b": "A command to permanently delete a branch",
+    "c": "A command to create a backup of changes in progress, useful for switching branches",
+    "d": "A command to merge changes from a remote repository",
+    "correct_choice": "c"
+  },
+  "What is the purpose of 'git tag' command?": {
+    "a": "To tag commits as spam",
+    "b": "To delete a tag",
+    "c": "To create a new branch",
+    "d": "To mark a specific commit for future reference",
+    "correct_choice": "d"
+  },
+  "What does 'git remote -v' show?": {
+    "a": "The current version of Git",
+    "b": "A list of available remote repositories",
+    "c": "The verbose output of the last Git command",
+    "d": "The status of tracked files",
+    "correct_choice": "b"
+  },
+  "What is a 'merge conflict' in Git?": {
+    "a": "A situation where two branches are automatically merged without any issues",
+    "b": "A situation where Git refuses to merge two branches",
+    "c": "A situation where there are conflicting changes in a file when merging branches",
+    "d": "A situation where two remote repositories have the same name",
+    "correct_choice": "c"
+  },
+  "How can you create a new branch in Git?": {
+    "a": "By using 'git create-branch'",
+    "b": "By using 'git new-branch'",
+    "c": "By using 'git branch'",
+    "d": "By using 'git checkout'",
+    "correct_choice": "c"
+  },
+  "What is the purpose of 'git cherry-pick' command?": {
+    "a": "To fetch changes from a remote repository",
+    "b": "To merge two branches",
+    "c": "To apply a specific commit from one branch to another",
+    "d": "To revert a commit",
+    "correct_choice": "c"
+  },
+  "How can you rename a local branch in Git?": {
+    "a": "By using 'git rename-branch'",
+    "b": "By creating a new branch with the desired name and deleting the old one",
+    "c": "By using 'git mv-branch'",
+    "d": "By using 'git branch-rename'",
+    "correct_choice": "b"
+  },
+  "What is a 'fork' on GitHub?": {
+    "a": "A tool to create new Git branches",
+    "b": "A copy of a repository that belongs to another user, used for making changes without affecting the original repository",
+    "c": "A type of Git tag",
+    "d": "A command to undo the last commit",
+    "correct_choice": "b"
+  },
+  "What is the purpose of 'git clone' command?": {
+    "a": "To create a new empty repository",
+    "b": "To copy a remote repository to your local machine",
+    "c": "To delete a repository",
+    "d": "To rename a branch",
+    "correct_choice": "b"
+  },
+  "What is a 'pull request' in the context of GitHub?": {
+    "a": "A request to delete a branch",
+    "b": "A request to revert a commit",
+    "c": "A request to merge changes from a remote repository",
+    "d": "A request to review and merge changes from a forked repository",
+    "correct_choice": "d"
+  },
+  "What is the purpose of 'git reset' command?": {
+    "a": "To reset your computer's Git configuration",
+    "b": "To undo the last commit",
+    "c": "To discard changes in the working directory",
+    "d": "To untrack files from Git without deleting them",
+    "correct_choice": "b"
+  },
+  "What is the 'HEAD' in Git?": {
+    "a": "The top of a commit tree",
+    "b": "A branch that is always the latest version",
+    "c": "A remote repository's main branch",
+    "d": "The status of tracked files",
+    "correct_choice": "a"
+  },
+  "What is 'git pull'?": {
+    "a": "A command to fetch changes from a remote repository",
+    "b": "A command to push changes to a remote repository",
+    "c": "A command to create a new branch",
+    "d": "A command to merge changes from a remote repository into your local branch",
+    "correct_choice": "d"
+  },
+  "How can you discard changes in your working directory that haven't been staged?": {
+    "a": "By using 'git discard'",
+    "b": "By using 'git revert'",
+    "c": "By using 'git reset'",
+    "d": "By using 'git checkout'",
+    "correct_choice": "d"
+  },
+  "What does 'git pull --rebase' do?": {
+    "a": "It fetches changes and merges them into your local branch",
+    "b": "It fetches changes and rebases them onto your local branch",
+    "c": "It deletes your local branch and fetches changes from a remote repository",
+    "d": "It fetches changes from a remote repository and discards your local changes",
+    "correct_choice": "b"
+  },
+  "How can you revert the last commit while keeping the changes staged for a new commit?": {
+    "a": "By using 'git undo'",
+    "b": "By using 'git revert --keep-staged'",
+    "c": "By creating a new branch and copying the changes",
+    "d": "By using 'git reset --soft HEAD^'",
+    "correct_choice": "d"
+  },
+  "What is 'git rebase' used for?": {
+    "a": "To create a new branch",
+    "b": "To synchronize changes between remote and local repositories",
+    "c": "To merge changes from one branch into another",
+    "d": "To apply changes from one branch on top of another branch",
+    "correct_choice": "d"
+  },
+  "What does 'git stash' do?": {
+    "a": "Deletes all untracked files in the repository",
+    "b": "Stores changes that are not ready to be committed",
+    "c": "Reverts the most recent commit",
+    "d": "Resets the repository to its initial state",
+    "correct_choice": "b"
+  },
+  "What does 'git cherry-pick' do?": {
+    "a": "Fetches changes from a remote repository",
+    "b": "Unstages changes from the working directory",
+    "c": "Applies a specific commit from one branch to another",
+    "d": "Deletes the last commit",
+    "correct_choice": "c"
+  },
+  "How can you view the commit history in Git?": {
+    "a": "Using 'git history'",
+    "b": "Using 'git log'",
+    "c": "Using 'git show'",
+    "d": "Using 'git commits'",
+    "correct_choice": "b"
+  },
+  "What is the purpose of 'git tag'?": {
+    "a": "To delete a remote repository",
+    "b": "To mark a specific point in Git history",
+    "c": "To rename a branch",
+    "d": "To fetch changes from a remote repository",
+    "correct_choice": "b"
+  },
+  "What is 'git fetch' used for?": {
+    "a": "To fetch changes and merge them into your local branch",
+    "b": "To fetch changes and rebase them onto your local branch",
+    "c": "To fetch changes from a remote repository and store them locally",
+    "d": "To fetch changes from a remote repository and immediately apply them",
+    "correct_choice": "c"
+  },
+  "How can you delete a branch in Git?": {
+    "a": "Using 'git branch -d branch-name'",
+    "b": "Using 'git delete-branch branch-name'",
+    "c": "Using 'git remove-branch branch-name'",
+    "d": "Using 'git checkout -b branch-name'",
+    "correct_choice": "a"
+  },
+  "What does 'git log --graph' show?": {
+    "a": "The commit history in a linear format",
+    "b": "The commit history with a visual representation of branches and merges",
+    "c": "The commit history sorted by author",
+    "d": "The commit history with detailed file changes",
+    "correct_choice": "b"
+  }
+}
+
+
+

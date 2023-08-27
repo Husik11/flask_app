@@ -1,0 +1,282 @@
+{
+  "What will be the output of the following Python code?\nI = 1\nwhile True:\nif i%3 == 0:\nBreak\nprint(i)\nI + = 1": {
+    "d": "error",
+    "c": "1 2 3",
+    "b": "1 2",
+    "a": "none of the mentioned",
+    "correct_choice": "b"
+  },
+  "What will be the value of the following Python expression?\n4 + 3 % 5": {
+    "c": "7",
+    "b": "2",
+    "a": "4",
+    "d": "1",
+    "correct_choice": "c"
+  },
+  "Is Python case sensitive when dealing with identifiers?": {
+    "d": "yes",
+    "a": "no",
+    "c": "machine dependent",
+    "b": "none of the mentioned",
+    "correct_choice": "a"
+  },
+  "Why are local variable names beginning with an underscore discouraged?": {
+    "d": "they are used to indicate a private variables of a class",
+    "c": "they confuse the interpreter",
+    "a": "they are used to indicate global variables",
+    "b": "they slow down execution",
+    "correct_choice": "a"
+  },
+  "The expression Int(x) implies that the variable x is converted to integer.": {
+    "a": "True",
+    "b": "False",
+    "d": "non option",
+    "c": "non option",
+    "correct_choice": "d"
+  },
+  "Which one of these is floor division?": {
+    "d": "//",
+    "c": "/",
+    "a": "%",
+    "b": "None of the mentioned",
+    "correct_choice": "a"
+  },
+  "What will be the output of the following Python code?\n>>>str=\"hello\"\n>>>str[:2]\n>>>": {
+    "a": "he",
+    "b": "lo",
+    "d": "olleh",
+    "c": "hello",
+    "correct_choice": "c"
+  },
+  "Select all options that print.\nHello-how-are-you": {
+    "c": "print('hello-' + 'how-are-you')",
+    "b": "print('hello', 'how', 'are', 'you' + '-' * 4)",
+    "d": "print('hello', 'how', 'are', 'you')",
+    "a": "print('hello' + '-' + 'how' + '-' + 'are' + 'you')",
+    "correct_choice": "b"
+  },
+  "What is the result of round(0.5) - round(-0.5)?": {
+    "a": "Value depends on Python version",
+    "b": "2.0",
+    "c": "0.0",
+    "d": "1.0",
+    "correct_choice": "a"
+  },
+  "What does 3 ^ 4 evaluate to?": {
+    "d": "7",
+    "a": "12",
+    "c": "0.75",
+    "b": "81",
+    "correct_choice": "d"
+  },
+  "What is the value of the following expression?\n8/4/2, 8/(4/2)": {
+    "b": "(1.0, 4.0)",
+    "d": "(1.0, 1.0)",
+    "c": "(4.0. 1.0)",
+    "a": "(4.0, 4.0)",
+    "correct_choice": "a"
+  },
+  "The expression 2**2**3 is evaluates as: (2**2)**3.": {
+    "c": "False",
+    "a": "True",
+    "b": "non option",
+    "d": "non option",
+    "correct_choice": "c"
+  },
+  "Which of the following represents the bitwise XOR operator?": {
+        "d": "^",
+        "b": "&",
+        "a": "|",
+        "c": "!",
+        "correct_choice": "d"
+    },
+    "The one’s complement of 110010101 is": {
+        "c": "001101010",
+        "b": "110010101",
+        "d": "001101011",
+        "a": "110010100",
+        "correct_choice": "c"
+    },
+    "What will be the output of the following Python code snippet?\nbool(‘False’)\nBool()": {
+        "c": "True\nFalse",
+        "d": "False\nTrue",
+        "b": "False\nFalse",
+        "a": "True\nTrue",
+        "correct_choice": "c"
+    },
+    "What will be the output of the following Python code snippet?\nNot(3>4)\nNot(1&1)": {
+        "d": "True\nFalse",
+        "a": "True\nTrue",
+        "c": "False\nTrue",
+        "b": "False\nTrue",
+        "correct_choice": "d"
+    },
+    "What will be the output of the following Python code?\n%x %d' %(255, 255)": {
+        "d": "‘ff, 255’",
+        "a": "‘255, 255’",
+        "b": "‘15f, 15f’",
+        "c": "Error",
+        "correct_choice": "d"
+    },
+    "What will be the output of the following Python code snippet?\n%(qty)d more %(food)s' %{'qty':1, 'food': 'spam'}": {
+        "a": "‘1 more spam’",
+        "c": "No output",
+        "d": "‘1 more foods’",
+        "b": "Error",
+        "correct_choice": "a"
+    },
+    "What will be the output of the following Python code?\n%s' %((1.23,),)": {
+        "a": "‘(1.23,)’",
+        "b": "1.23,",
+        "c": "(,1.23)",
+        "d": "‘1.23’",
+        "correct_choice": "a"
+    },
+    "What will be the output of the following Python code?\nhex(255), int('FF', 16), 0xFF": {
+        "a": "(‘0xff’, 255, 255)",
+        "c": "(‘0xff’, 155, 16, 255)",
+        "b": "Error",
+        "d": "[0xFF, 255, 16, 255]",
+        "correct_choice": "a"
+    },
+    "The two snippets of the following Python codes are equivalent.\nCODE 1\n@f\ndef f1():\nprint(“Hello”)\nCODE 2\ndef f1():\nprint(“Hello”)\nf1 = f(f1)": {
+        "c": "True",
+        "d": "False",
+        "a": "non option",
+        "b": "non option",
+        "correct_choice": "c"
+    },
+    "What will be the output of the following Python code?\nfor i in range(float('inf')):\nprint (I)": {
+        "a": "none of the mentioned",
+        "c": "0 1 2 3 …",
+        "b": "0.0 1.0 2.0 3.0 …",
+        "d": "0.0 0.1 0.2 0.3 …",
+        "correct_choice": "c"
+    },
+    "What will be the output of the following Python code?\nI = 5\nwhile True:\nif i%0O11 == 0:\nbreak\nprint(i)\nI += 1": {
+        "a": "5 6 7 8",
+        "d": "5 6 7 8 9 10",
+        "c": "5 6",
+        "b": "error",
+        "correct_choice": "b"
+    },
+    "What will be the output of the following Python code?\nprint('cba'.maketrans('abc', '123'))": {
+        "a": "{97: 49, 98: 50, 99: 51}",
+        "c": "{65: 49, 66: 50, 67: 51}",
+        "d": "321",
+        "b": "123",
+        "correct_choice": "a"
+    },
+    "What will be the output of the following Python code snippet?\nprint('Hello World'.istitle())": {
+        "b": "True",
+        "a": "False",
+        "d": "None",
+        "c": "Error",
+        "correct_choice": "b"
+    },
+    "What will be the output of the following Python code? def f(values): values[0] = 44 v = [1, 2, 3] f(v) print(v)": {
+        "c": "[44, 2, 3]",
+        "a": "[1, 2, 3, 44]",
+        "d": "[1, 44]",
+        "b": "[1, 2, 3]",
+        "correct_choice": "c"
+    },
+    "What will be the output of the following Python code?\n>>>list1 = [11, 2, 23]\n>>>list2 = [11, 2, 2]\n>>>list1 < list2": {
+        "c": "False",
+        "b": "True",
+        "a": "Error",
+        "d": "None",
+        "correct_choice": "b"
+    },
+    "What will be the output of the following Python code? A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] B = [[3, 3, 3], [4, 4, 4], [5, 5, 5]] [[col1 * col2 for (col1, col2) in zip(row1, row2)] for (row1, row2) in zip(A, B)]": {
+        "b": "[[3, 6, 9], [16, 20, 24], [35, 40, 45]]",
+        "c": "[0, 30, 60, 120, 160, 200, 300, 350, 400]",
+        "a": "No output",
+        "d": "Error",
+        "correct_choice": "b"
+    },
+    "Which of the following is the same as list(map(lambda x: x**-1, [1, 2, 3]))?": {
+        "c": "[1/x for x in (1, 2, 3)]",
+        "b": "[1/x for x in [(1, 2, 3)]]",
+        "d": "[x**-1 for x in [(1, 2, 3)]]",
+        "a": "error",
+        "correct_choice": "c"
+    },
+    "Which of the following is a Python tuple?": {
+        "c": "(1, 2, 3)",
+        "a": "[1, 2, 3]",
+        "b": "{1, 2, 3}",
+        "d": "{}",
+        "correct_choice": "c"
+    },
+    "What will be the output of the following Python code? a = ('check',) n = 2 for i in range(int(n)): a = (a,) print(a)": {
+        "b": "(('check',),) ((('check',),),)",
+        "a": "Error, tuples are immutable",
+        "d": "((‘check’,)‘check’)",
+        "c": "(('check',)'check',) ((('check',)'check',)'check')",
+        "correct_choice": "b"
+    },
+    "Write a list comprehension for number and its cube for: l=[1, 2, 3, 4, 5, 6, 7, 8, 9]": {
+        "b": "[x**3 for x in l]",
+        "a": "[x^3 for x in l]",
+        "d": "[x**3 in l]",
+        "c": "[x^3 in l]",
+        "correct_choice": "b"
+    },
+    "What will be the output of the following Python code? a={1:\"A\",2:\"B\",3:\"C\"} b={4:\"D\",5:\"E\"} a.update(b) print(a)": {
+        "c": "{1: ‘A’, 2: ‘B’, 3: ‘C’, 4: ‘D’, 5: ‘E’}",
+        "a": "Method update() doesn’t exist for dictionaries",
+        "d": "{1: ‘A’, 2: ‘B’, 3: ‘C’}",
+        "b": "{4: ‘D’, 5: ‘E’}",
+        "correct_choice": "c"
+    },
+    "What will be the output of the following Python code? >>> a=dict() >>> a[1]": {
+        "d": "An exception is thrown since the dictionary is empty",
+        "c": "‘ ’",
+        "a": "1",
+        "b": "0",
+        "correct_choice": "d"
+    },
+    "What will be the output of the following Python function? list(enumerate([2, 3]))": {
+        "d": "[(0, 2), (1, 3)]",
+        "b": "[(1, 2), (2, 3)]",
+        "a": "Error",
+        "c": "[(2, 3)]",
+        "correct_choice": "d"
+    },
+    "What will be the output of the following Python functions? x=3 eval('x^2')": {
+        "a": "1",
+        "c": "Error",
+        "d": "9",
+        "b": "6",
+        "correct_choice": "a"
+    },
+    "What will be the output of the following Python code? def find(a, **b): print(type(b)) find('letters',A='1',B='2')": {
+        "a": "Dictionary",
+        "b": "Tuple",
+        "c": "String",
+        "d": "An exception is thrown",
+        "correct_choice": "a"
+    },
+    "What will be the output of the following Python code? def sayHello(): print('Hello World!') sayHello() sayHello()": {
+        "c": "Hello World! Hello World!",
+        "d": "Hello World!' Hello World!'",
+        "b": "Hello Hello",
+        "a": "None of the mentioned",
+        "correct_choice": "c"
+    },
+    "How are default arguments specified in the function heading?": {
+        "d": "identifier followed by an equal to sign and the default value",
+        "c": "identifier followed by the default value within backticks (“)",
+        "a": "identifier followed by the default value within square brackets ([])",
+        "b": "identifier",
+        "correct_choice": "d"
+    },
+    "How are variable length arguments specified in the function heading?": {
+        "c": "one star followed by a valid identifier",
+        "d": "one underscore followed by a valid identifier",
+        "b": "two stars followed by a valid identifier",
+        "a": "two underscores followed by a valid identifier",
+        "correct_choice": "c"
+    }
+}

@@ -1,0 +1,100 @@
+body {
+  background: #333;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#login {
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.login {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: rotateY(40deg);
+  -moz-transform: rotateY(40deg);
+  transform: rotateY(40deg);
+}
+
+.login:hover {
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.login article {
+}
+
+.login .form-group {
+  margin-bottom: 17px;
+}
+
+.login .form-control,
+.login .btn {
+  border-radius: 0;
+}
+
+.login .btn {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.login .btn:hover {
+  background-color: #fafafa;
+  border-color: #000000;
+  color: #000000;
+}
+
+.input-group-addon {
+  border-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: #fff;
+  background: #333;
+  border: none;
+  margin-top: 8px;
+}
+
+.forgot {
+  font-size: 16px;
+}
+
+.forgot a {
+  color: #ffffff;
+}
+
+.forgot a:hover {
+  color: #fcfcfc;
+}
+
+.btn-success {
+  background-color: #333;
+  border-color: #fff;
+}
+
+.sign-in-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff; /* You can set the color you want */
+}
+
+.home__icons {
+  color: #fff;
+}
+
+.sign-in-header a {
+  text-decoration: none; /* Remove underline by default */
+}
+
+.sign-in-header a:hover {
+  text-decoration: none; /* Remove underline when hovering */
+}
