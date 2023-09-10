@@ -1,0 +1,148 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+#mttContainer {
+  left: 0 !important;
+  top: 0 !important;
+  position: fixed !important;
+  z-index: 100000200 !important;
+  width: 1000px !important;
+  margin-left: -500px !important;
+  background-color: #00000000 !important;
+  pointer-events: none !important;
+  display: inline-block !important;
+}
+.bootstrapiso .tooltip {
+  width: auto !important;
+  height: auto !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0px !important;
+  visibility: visible !important;
+  pointer-events: none !important;
+}
+.bootstrapiso .tooltip-inner {
+  font-size: 14px !important;
+  max-width: 200px !important;
+  text-align: center !important;
+  backdrop-filter: blur(2px) !important;
+  background-color: #000000b8 !important;
+  color: #ffffffff !important;
+  pointer-events: none !important;
+}
+.bootstrapiso .arrow::before {
+  border-top-color: #000000b8 !important;
+}
+.bootstrapiso .arrow::after {
+  display: none !important;
+}
+.ocr_text_div {
+  position: absolute;
+  opacity: 0.7;
+  z-index: 100000;
+  pointer-events: auto;
+  font-size: 2.5em;
+  overflow: hidden;
+  border: 2px solid CornflowerBlue;
+  color: #00000000 !important;
+  background-color: #00000000 !important;
+}
+
+.w3-modal-content {
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+}
+.w3-modal-header {
+  background-color: #798690;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.w3-modal-header h2 {
+  margin: 0;
+  padding: 10px;
+}
+.w3-modal-close {
+  color: white;
+  font-size: 18px;
+}
+.w3-modal-body {
+  padding: 20px;
+}
+.w3-modal-footer {
+  text-align: right;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.w3-modal-button {
+  background-color: #798690;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.w3-modal-button:hover {
+  background-color: #798690;
+}
+
+/* Additional table styling */
+.w3-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+.w3-table th,
+.w3-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.w3-table th {
+  background-color: #f2f2f2;
+}
+/* Adjusted button styling */
+.w3-button-inline {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.button_color {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.td__form {
+  width: 350px;
+}

@@ -1,0 +1,337 @@
+{
+  "What is the maximum number of IP addresses in an IPv4 subnet with a subnet mask of 255.255.255.0?": {
+    "a": "256",
+    "b": "512",
+    "c": "1024",
+    "d": "2048",
+    "correct_choice": "a"
+  },
+  "Which protocol is responsible for translating domain names to IP addresses?": {
+    "a": "HTTP",
+    "b": "FTP",
+    "c": "DNS",
+    "d": "SMTP",
+    "correct_choice": "c"
+  },
+  "What is the default port number for HTTP traffic?": {
+    "a": "80",
+    "b": "443",
+    "c": "21",
+    "d": "22",
+    "correct_choice": "a"
+  },
+  "Which networking device operates at the Data Link layer of the OSI model?": {
+    "a": "Router",
+    "b": "Switch",
+    "c": "Hub",
+    "d": "Bridge",
+    "correct_choice": "b"
+  },
+  "What is the purpose of DHCP in a network?": {
+    "a": "Encrypt data transmission",
+    "b": "Assign IP addresses to devices",
+    "c": "Filter network traffic",
+    "d": "Translate domain names",
+    "correct_choice": "b"
+  },
+  "What is the subnet mask for a /24 IPv4 subnet?": {
+    "a": "255.255.255.0",
+    "b": "255.255.0.0",
+    "c": "255.0.0.0",
+    "d": "255.255.255.255",
+    "correct_choice": "a"
+  },
+  "Which protocol is used to send email messages from a client to a server?": {
+    "a": "SMTP",
+    "b": "HTTP",
+    "c": "FTP",
+    "d": "POP3",
+    "correct_choice": "a"
+  },
+  "Which type of network topology connects all devices to a single central hub?": {
+    "a": "Star",
+    "b": "Ring",
+    "c": "Bus",
+    "d": "Mesh",
+    "correct_choice": "a"
+  },
+  "What is the purpose of NAT (Network Address Translation)?": {
+    "a": "Encrypt network traffic",
+    "b": "Assign IP addresses",
+    "c": "Translate domain names",
+    "d": "Allow multiple devices to share a single public IP address",
+    "correct_choice": "d"
+  },
+  "Which OSI layer is responsible for routing and forwarding data between different networks?": {
+    "a": "Physical Layer",
+    "b": "Network Layer",
+    "c": "Data Link Layer",
+    "d": "Transport Layer",
+    "correct_choice": "b"
+  },
+  "Which protocol is used for securely transferring files between a local and a remote computer?": {
+    "a": "HTTP",
+    "b": "FTP",
+    "c": "SMTP",
+    "d": "SSH",
+    "correct_choice": "b"
+  },
+  "What is the purpose of a firewall in a network?": {
+    "a": "Translate domain names",
+    "b": "Encrypt network traffic",
+    "c": "Block unauthorized access",
+    "d": "Assign IP addresses",
+    "correct_choice": "c"
+  },
+  "What is the primary function of a router in a network?": {
+    "a": "Forward data between devices within the same network",
+    "b": "Translate domain names to IP addresses",
+    "c": "Assign IP addresses to devices",
+    "d": "Forward data between different networks",
+    "correct_choice": "d"
+  },
+  "Which port number is typically used for secure HTTPS traffic?": {
+    "a": "80",
+    "b": "443",
+    "c": "21",
+    "d": "22",
+    "correct_choice": "b"
+  },
+  "In which layer of the OSI model does TCP (Transmission Control Protocol) operate?": {
+    "a": "Physical Layer",
+    "b": "Transport Layer",
+    "c": "Network Layer",
+    "d": "Application Layer",
+    "correct_choice": "b"
+  },
+  "What is the purpose of an IP address?": {
+    "a": "Identify a specific web page",
+    "b": "Translate domain names to URLs",
+    "c": "Encrypt data transmission",
+    "d": "Uniquely identify a device on a network",
+    "correct_choice": "d"
+  },
+  "Which network device operates at the Application layer of the OSI model?": {
+    "a": "Router",
+    "b": "Switch",
+    "c": "Hub",
+    "d": "Gateway",
+    "correct_choice": "d"
+  },
+  "What is a MAC address used for in networking?": {
+    "a": "Assign IP addresses to devices",
+    "b": "Translate domain names",
+    "c": "Identify a device's manufacturer",
+    "d": "Route data between networks",
+    "correct_choice": "c"
+  },
+  "Which protocol is used for sending and receiving email messages on the client side?": {
+    "a": "SMTP",
+    "b": "HTTP",
+    "c": "FTP",
+    "d": "POP3",
+    "correct_choice": "d"
+  },
+  "What does DNS stand for in networking?": {
+    "a": "Domain Name System",
+    "b": "Dynamic Network Security",
+    "c": "Data Network Services",
+    "d": "Distributed Network Sync",
+    "correct_choice": "a"
+  },
+  "What is the purpose of NAT (Network Address Translation) in networking?": {
+    "a": "Translate domain names to IP addresses",
+    "b": "Assign IP addresses to devices",
+    "c": "Filter and control network traffic",
+    "d": "Allow multiple devices to share a single public IP address",
+    "correct_choice": "d"
+  },
+  "What is the primary function of a DHCP (Dynamic Host Configuration Protocol) server in networking?": {
+    "a": "Translate domain names to IP addresses",
+    "b": "Assign IP addresses to devices",
+    "c": "Encrypt network traffic",
+    "d": "Filter and control network traffic",
+    "correct_choice": "b"
+  },
+  "Which networking protocol is used for remotely managing and configuring network devices, such as routers and switches?": {
+    "a": "FTP",
+    "b": "SNMP",
+    "c": "SMTP",
+    "d": "HTTP",
+    "correct_choice": "b"
+  },
+  "In networking, what does the acronym VLAN stand for?": {
+    "a": "Virtual Local Area Network",
+    "b": "Very Large Area Network",
+    "c": "Visible Local Access Network",
+    "d": "Volatile Link Aggregation Network",
+    "correct_choice": "a"
+  },
+  "What is the purpose of a proxy server in networking?": {
+    "a": "Translate domain names to IP addresses",
+    "b": "Encrypt network traffic",
+    "c": "Filter and control network traffic",
+    "d": "Assign IP addresses to devices",
+    "correct_choice": "c"
+  },
+  "Which type of network topology connects all devices in a linear sequence, where data passes from one device to the next in a single line?": {
+    "a": "Star topology",
+    "b": "Ring topology",
+    "c": "Bus topology",
+    "d": "Mesh topology",
+    "correct_choice": "c"
+  },
+  "What is a MAC address in networking?": {
+    "a": "A unique identifier assigned to a network device",
+    "b": "A type of network protocol",
+    "c": "An IP address assigned to a router",
+    "d": "A domain name for a website",
+    "correct_choice": "a"
+  },
+  "Which networking protocol is commonly used for transferring files between a local computer and a remote server?": {
+    "a": "HTTP",
+    "b": "FTP",
+    "c": "SMTP",
+    "d": "SSH",
+    "correct_choice": "b"
+  },
+  "What is the purpose of ARP (Address Resolution Protocol) in networking?": {
+    "a": "Translate domain names to IP addresses",
+    "b": "Assign IP addresses to devices",
+    "c": "Map IP addresses to MAC addresses",
+    "d": "Encrypt network traffic",
+    "correct_choice": "c"
+  },
+  "Which networking protocol is used for sending and receiving emails between mail servers?": {
+    "a": "FTP",
+    "b": "HTTP",
+    "c": "SMTP",
+    "d": "SSH",
+    "correct_choice": "c"
+  },
+  "What is the purpose of an IP address in networking?": {
+    "a": "Filter and control network traffic",
+    "b": "Translate domain names to MAC addresses",
+    "c": "Identify a device's location on a network",
+    "d": "Assign ports for network communication",
+    "correct_choice": "c"
+  },
+  "Which networking component is used to connect devices within the same local area network (LAN)?": {
+    "a": "Hub",
+    "b": "Router",
+    "c": "Switch",
+    "d": "Firewall",
+    "correct_choice": "c"
+  },
+  "What does the acronym VPN stand for in networking?": {
+    "a": "Virtual Private Network",
+    "b": "Very Personal Network",
+    "c": "Virtual Protocol Node",
+    "d": "Volatile Public Network",
+    "correct_choice": "a"
+  },
+  "Which networking protocol is commonly used for sending and receiving email messages?": {
+    "a": "FTP",
+    "b": "SSH",
+    "c": "SMTP",
+    "d": "HTTP",
+    "correct_choice": "c"
+  },
+  "Which networking component is responsible for directing data packets between different networks, determining the best path for data transmission?": {
+    "a": "Switch",
+    "b": "Router",
+    "c": "Hub",
+    "d": "Firewall",
+    "correct_choice": "b"
+  },
+  "In networking, what does the acronym LAN stand for?": {
+    "a": "Local Access Network",
+    "b": "Large Area Network",
+    "c": "Local Area Network",
+    "d": "Laptop Area Network",
+    "correct_choice": "c"
+  },
+  "What is the purpose of port numbers in networking?": {
+    "a": "Translate domain names to IP addresses",
+    "b": "Identify a device's location on a network",
+    "c": "Assign unique identifiers for network communication",
+    "d": "Encrypt network traffic",
+    "correct_choice": "c"
+  },
+  "Which networking protocol is used for remotely accessing and managing network devices and servers?": {
+    "a": "HTTP",
+    "b": "SSH",
+    "c": "SMTP",
+    "d": "FTP",
+    "correct_choice": "b"
+  },
+  "What is the purpose of a firewall in networking?": {
+    "a": "Translate domain names to IP addresses",
+    "b": "Provide physical connectivity between devices",
+    "c": "Filter and control network traffic based on security rules",
+    "d": "Assign IP addresses to devices",
+    "correct_choice": "c"
+  },
+  "Which networking protocol is used to resolve domain names to IP addresses?": {
+    "a": "SMTP",
+    "b": "HTTP",
+    "c": "DNS",
+    "d": "FTP",
+    "correct_choice": "c"
+  },
+  "What is a subnet mask used for in networking?": {
+    "a": "Encrypt network traffic",
+    "b": "Translate domain names to IP addresses",
+    "c": "Identify a device's location on a network",
+    "d": "Divide an IP address into network and host portions",
+    "correct_choice": "d"
+  },
+  "What is the purpose of a gateway in networking?": {
+    "a": "Assign unique identifiers for network communication",
+    "b": "Filter and control network traffic",
+    "c": "Translate domain names to IP addresses",
+    "d": "Provide access between different networks or network segments",
+    "correct_choice": "d"
+  },
+  "Which networking component is used to connect devices across different networks and forward data packets between them?": {
+    "a": "Switch",
+    "b": "Router",
+    "c": "Hub",
+    "d": "Firewall",
+    "correct_choice": "b"
+  },
+  "Which networking protocol is used for secure data transfer and remote file management?": {
+    "a": "SSH",
+    "b": "HTTP",
+    "c": "SMTP",
+    "d": "FTP",
+    "correct_choice": "a"
+  },
+  "What is a DNS server's role in networking?": {
+    "a": "Assign IP addresses to devices",
+    "b": "Filter and control network traffic",
+    "c": "Translate domain names to IP addresses",
+    "d": "Encrypt network traffic",
+    "correct_choice": "c"
+  },
+  "Which networking component operates at the Data Link layer of the OSI model and uses MAC addresses to forward data within the same network segment?": {
+    "a": "Router",
+    "b": "Hub",
+    "c": "Switch",
+    "d": "Firewall",
+    "correct_choice": "c"
+  },
+  "What does the term 'bandwidth' refer to in networking?": {
+    "a": "The speed of data transmission over a network",
+    "b": "The physical distance between devices on a network",
+    "c": "The number of devices connected to a network",
+    "d": "The security level of a network",
+    "correct_choice": "a"
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--        <link rel="stylesheet" href="../static/userpage.css" />-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='userpage.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='userinfo.css') }}"/>
+    <!--        <link rel="stylesheet" href="../static/userinfo.css" />-->
+
+</head>
+<body>
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <a href="{{ url_for('home') }}" class="w3-bar-item w3-button w3-wide">Goya TC</a>
+        <div class="w3-dropdown-hover w3-right w3-hide-small">
+            <button class="w3-button">{{ current_user.name }}</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="{{ url_for('logout') }}" class="w3-bar-item w3-button">Log Out</a>
+            </div>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+        <a
+                href="javascript:void(0)"
+                class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="w3_open()"
+        >
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</div>
+<!-- Header with full-height image -->
+<section class="py-5 section-bg">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card mb-4 user__card">
+                <div class="card-body text-center">
+                    <h5 class="my-3">{{ current_user.name }} {{ current_user.surname }}</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="card mb-4 user__inf__card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">Full Name</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="text-muted mb-0">{{ current_user.surname }} {{ current_user.name }}</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">Email</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="text-muted mb-0">{{ current_user.email }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form method="POST" action="{{ url_for('userpage') }}">
+                {{ form.csrf_token }}
+
+                {{ form.get_exam.label }}
+                {{ form.get_exam }}
+
+                <button type="submit" class="w3-right w3-teal">Submit</button>
+                <input type="hidden" id="exam-added-trigger" value="false">
+            </form>
+            <div id="floating-window" class="floating-window">
+                <div class="floating-content">
+                    <p>Your exam has been added. Please wait for the exam link.</p>
+                </div>
+            </div>
+            {% for exam in exams %}
+            <div>
+                <p>Subject: {{ exam.subject.name }}</p>
+                {% if exam.is_sent %}
+                <a href="{{ url_for('examPage', exam_id=exam.id) }}">Take the exam</a>
+                {% else %}
+                <p>Exam not accessible yet</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- The Modal -->
+<div id="addExamModal" class="w3-modal">
+    <div class="w3-modal-content">
+        <header class="w3-container w3-modal-header">
+          <span onclick="closeModal()" class="w3-button w3-modal-close"
+          >&times;</span
+          >
+            <h2>Add Exam</h2>
+        </header>
+        <div class="w3-modal-body">
+            <form>
+                <label for="examName">Exam Name:</label>
+                <input
+                        type="text"
+                        id="examName"
+                        name="examName"
+                        class="w3-input w3-border w3-margin-bottom"
+                />
+                <label for="examFile">Exam File:</label>
+                <input
+                        type="file"
+                        id="examFile"
+                        name="examFile"
+                        class="w3-input w3-border"
+                />
+            </form>
+        </div>
+        <div class="w3-modal-footer">
+            <button type="button" class="w3-modal-button" onclick="closeModal()">
+                Cancel
+            </button>
+            <button type="submit" class="w3-modal-button">Add Exam</button>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey">
+        <i class="fa fa-arrow-up w3-margin-right"></i>To the top
+    </a>
+    <div class="w3-xlarge w3-section">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+</footer>
+<script>
+    const form = document.querySelector('form');
+    const examAddedTrigger = document.getElementById('exam-added-trigger');
+    const floatingWindow = document.getElementById('floating-window');
+
+    form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        // Your form submission logic here
+
+        try {
+            // Assuming your form submission is successful
+            // You might need to adjust this condition based on your actual success response
+            if (/* Exam successfully added */) {
+                examAddedTrigger.value = 'true';
+                floatingWindow.style.display = 'block';
+            }
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    });
+</script>
+</body>
+</html>

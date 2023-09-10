@@ -1,0 +1,467 @@
+{
+  "Which SQL statement is used to retrieve data from a database?": {
+    "a": "FETCH",
+    "b": "SELECT",
+    "c": "RETRIEVE",
+    "d": "GET",
+    "correct_choice": "b"
+  },
+  "What does SQL stand for?": {
+    "a": "Structured Question Language",
+    "b": "Structured Query Language",
+    "c": "Search Query Language",
+    "d": "Sequential Query Language",
+    "correct_choice": "b"
+  },
+  "Which SQL clause is used to filter the results of a SELECT query?": {
+    "a": "FROM",
+    "b": "JOIN",
+    "c": "WHERE",
+    "d": "GROUP BY",
+    "correct_choice": "c"
+  },
+  "What SQL statement is used to insert data into a table?": {
+    "a": "ADD",
+    "b": "INSERT INTO",
+    "c": "CREATE",
+    "d": "UPDATE",
+    "correct_choice": "b"
+  },
+  "Which SQL function is used to count the number of rows in a table?": {
+    "a": "COUNTROWS",
+    "b": "TOTALROWS",
+    "c": "ROWCOUNT",
+    "d": "COUNT",
+    "correct_choice": "d"
+  },
+  "What is the primary key in a SQL table used for?": {
+    "a": "Storing large data",
+    "b": "Sorting the table",
+    "c": "Linking multiple tables",
+    "d": "Uniquely identifying each record",
+    "correct_choice": "d"
+  },
+  "Which SQL command is used to update data in a database?": {
+    "a": "ALTER",
+    "b": "MODIFY",
+    "c": "CHANGE",
+    "d": "UPDATE",
+    "correct_choice": "d"
+  },
+  "In SQL, which operator is used to sort the result set in ascending order?": {
+    "a": "ORDER ASC",
+    "b": "SORT ASC",
+    "c": "ASCENDING",
+    "d": "ORDER BY",
+    "correct_choice": "d"
+  },
+  "What SQL statement is used to delete data from a database?": {
+    "a": "DELETE FROM",
+    "b": "REMOVE FROM",
+    "c": "DROP",
+    "d": "CLEAR",
+    "correct_choice": "a"
+  },
+  "Which SQL clause is used to combine rows from different tables?": {
+    "a": "MERGE",
+    "b": "UNION",
+    "c": "COMBINE",
+    "d": "CONNECT",
+    "correct_choice": "b"
+  },
+  "Which SQL statement is used to retrieve unique values from a column?": {
+    "a": "SELECT DISTINCT",
+    "b": "SELECT UNIQUE",
+    "c": "RETRIEVE DISTINCT",
+    "d": "GET UNIQUE",
+    "correct_choice": "a"
+  },
+  "In SQL, which operator is used to select values within a range?": {
+    "a": "BETWEEN",
+    "b": "RANGE",
+    "c": "WITHIN",
+    "d": "IN RANGE",
+    "correct_choice": "a"
+  },
+  "What is an SQL JOIN clause used for?": {
+    "a": "Sorting query results",
+    "b": "Filtering query results",
+    "c": "Combining data from multiple tables",
+    "d": "Deleting data from tables",
+    "correct_choice": "c"
+  },
+  "Which SQL command is used to create a new table?": {
+    "a": "NEW TABLE",
+    "b": "CREATE TABLE",
+    "c": "ADD TABLE",
+    "d": "GENERATE TABLE",
+    "correct_choice": "b"
+  },
+  "What is the purpose of the SQL GROUP BY clause?": {
+    "a": "Filter rows based on a condition",
+    "b": "Sort rows in ascending order",
+    "c": "Combine rows from multiple tables",
+    "d": "Group rows based on column values",
+    "correct_choice": "d"
+  },
+  "Which SQL function is used to find the maximum value in a column?": {
+    "a": "MAXIMUM",
+    "b": "MAXVAL",
+    "c": "MAXVALUE",
+    "d": "MAX",
+    "correct_choice": "d"
+  },
+  "What is an SQL subquery used for?": {
+    "a": "Updating data in a table",
+    "b": "Filtering data in a column",
+    "c": "Performing calculations on columns",
+    "d": "Nested query within another query",
+    "correct_choice": "d"
+  },
+  "In SQL, which operator is used to select values that match a pattern?": {
+    "a": "MATCH",
+    "b": "LIKE",
+    "c": "EQUALS",
+    "d": "SIMILAR",
+    "correct_choice": "b"
+  },
+  "What SQL statement is used to add a new column to an existing table?": {
+    "a": "ALTER COLUMN",
+    "b": "ADD COLUMN",
+    "c": "MODIFY COLUMN",
+    "d": "NEW COLUMN",
+    "correct_choice": "b"
+  },
+  "Which SQL function is used to find the average value in a column?": {
+    "a": "AVG",
+    "b": "AVERAGE",
+    "c": "MEAN",
+    "d": "SUM",
+    "correct_choice": "a"
+  },
+  "Which SQL statement is used to update data in a table?": {
+    "a": "MODIFY",
+    "b": "UPDATE",
+    "c": "CHANGE",
+    "d": "ALTER",
+    "correct_choice": "b"
+  },
+  "In SQL, what does the WHERE clause do?": {
+    "a": "Sorts the result set",
+    "b": "Joins multiple tables",
+    "c": "Filters the result set",
+    "d": "Combines rows from multiple tables",
+    "correct_choice": "c"
+  },
+  "Which SQL operator is used to combine rows from two or more tables based on a related column?": {
+    "a": "UNION",
+    "b": "MERGE",
+    "c": "JOIN",
+    "d": "COMBINE",
+    "correct_choice": "c"
+  },
+  "Which SQL clause is used to sort the result set in ascending or descending order?": {
+    "a": "ORDER BY",
+    "b": "SORT BY",
+    "c": "GROUP BY",
+    "d": "ARRANGE BY",
+    "correct_choice": "a"
+  },
+  "What is the purpose of the SQL HAVING clause?": {
+    "a": "Filter rows based on a condition",
+    "b": "Sort rows in ascending order",
+    "c": "Group rows based on column values",
+    "d": "Filter groups based on aggregate values",
+    "correct_choice": "d"
+  },
+  "Which SQL command is used to delete data from a table?": {
+    "a": "REMOVE",
+    "b": "DELETE FROM",
+    "c": "DROP",
+    "d": "ERASE",
+    "correct_choice": "b"
+  },
+  "In SQL, which operator is used to check if a value is within a list of values?": {
+    "a": "LIKE",
+    "b": "IN",
+    "c": "WITHIN",
+    "d": "EXISTS",
+    "correct_choice": "b"
+  },
+  "What is the result of using the SQL COUNT function on a column?": {
+    "a": "Total number of rows in the table",
+    "b": "Sum of values in the column",
+    "c": "Average value in the column",
+    "d": "Number of unique values in the column",
+    "correct_choice": "a"
+  },
+  "Which SQL command is used to remove a table from the database?": {
+    "a": "DELETE TABLE",
+    "b": "REMOVE TABLE",
+    "c": "DROP TABLE",
+    "d": "ERASE TABLE",
+    "correct_choice": "c"
+  },
+  "Which SQL function is used to find the highest value in a column?": {
+    "a": "MAX()",
+    "b": "HIGH()",
+    "c": "GREATEST()",
+    "d": "LARGEST()",
+    "correct_choice": "a"
+  },
+  "In SQL, which operator is used to check if a value matches a pattern?": {
+    "a": "EQUALS",
+    "b": "LIKE",
+    "c": "MATCHES",
+    "d": "COMPARE",
+    "correct_choice": "b"
+  },
+  "What is the purpose of the SQL DISTINCT keyword?": {
+    "a": "Sort the result set",
+    "b": "Remove duplicate rows from the result set",
+    "c": "Join multiple tables",
+    "d": "Filter the result set",
+    "correct_choice": "b"
+  },
+  "Which SQL statement is used to insert new data into a table?": {
+    "a": "CREATE",
+    "b": "INSERT INTO",
+    "c": "UPDATE",
+    "d": "ADD",
+    "correct_choice": "b"
+  },
+  "In SQL, what is the purpose of the SELECT statement?": {
+    "a": "Delete rows from a table",
+    "b": "Insert rows into a table",
+    "c": "Retrieve data from a table",
+    "d": "Update data in a table",
+    "correct_choice": "c"
+  },
+  "Which SQL keyword is used to retrieve data from multiple tables with a single query?": {
+    "a": "JOIN",
+    "b": "MERGE",
+    "c": "COMBINE",
+    "d": "CONNECT",
+    "correct_choice": "a"
+  },
+  "What is the result of using the SQL AVG function on a column?": {
+    "a": "Total number of rows in the table",
+    "b": "Sum of values in the column",
+    "c": "Average value in the column",
+    "d": "Number of unique values in the column",
+    "correct_choice": "c"
+  },
+  "Which SQL function is used to find the lowest value in a column?": {
+    "a": "MIN()",
+    "b": "LOWEST()",
+    "c": "SMALLEST()",
+    "d": "LEAST()",
+    "correct_choice": "a"
+  },
+  "What does the SQL ORDER BY clause do?": {
+    "a": "Filters the result set",
+    "b": "Joins multiple tables",
+    "c": "Groups the result set",
+    "d": "Sorts the result set",
+    "correct_choice": "d"
+  },
+  "What does the SQL HAVING clause do?": {
+    "a": "Filter rows based on a condition after grouping",
+    "b": "Sort rows in ascending order",
+    "c": "Group rows based on column values",
+    "d": "Combine rows from multiple tables",
+    "correct_choice": "a"
+  },
+  "What is the purpose of the SQL GROUP_CONCAT function?": {
+    "a": "Calculate the sum of values in a column",
+    "b": "Concatenate values from multiple rows into a single string",
+    "c": "Find the average value in a column",
+    "d": "Return the maximum value in a column",
+    "correct_choice": "b"
+  },
+  "Which SQL operator is used to combine the result sets of two or more SELECT queries?": {
+    "a": "UNION",
+    "b": "JOIN",
+    "c": "COMBINE",
+    "d": "CONNECT",
+    "correct_choice": "a"
+  },
+  "In SQL, what is the purpose of the WHERE clause?": {
+    "a": "Sort rows in ascending order",
+    "b": "Group rows based on column values",
+    "c": "Filter rows based on a condition",
+    "d": "Combine rows from multiple tables",
+    "correct_choice": "c"
+  },
+  "Which SQL function is used to get the current date and time?": {
+    "a": "TODAY()",
+    "b": "NOW()",
+    "c": "CURRENT_TIMESTAMP()",
+    "d": "DATE_TIME()",
+    "correct_choice": "b"
+  },
+  "What is the result of using the SQL SUM function on a column?": {
+    "a": "Total number of rows in the table",
+    "b": "Average value in the column",
+    "c": "Sum of values in the column",
+    "d": "Number of unique values in the column",
+    "correct_choice": "c"
+  },
+  "In SQL, which operator is used to check if a value is not equal to another value?": {
+    "a": "DIFFERENT",
+    "b": "INEQUALS",
+    "c": "NOT",
+    "d": "!=",
+    "correct_choice": "d"
+  },
+  "What is the purpose of the SQL LIMIT clause?": {
+    "a": "Join multiple tables",
+    "b": "Sort the result set",
+    "c": "Retrieve a specific number of rows from the result set",
+    "d": "Group the result set",
+    "correct_choice": "c"
+  },
+  "Which SQL function is used to convert a value to uppercase?": {
+    "a": "CAPITALIZE()",
+    "b": "UPPERCASE()",
+    "c": "UPPER()",
+    "d": "CONVERT_UPPER()",
+    "correct_choice": "c"
+  },
+  "What is the purpose of the SQL BETWEEN operator?": {
+    "a": "Check if a value matches a pattern",
+    "b": "Filter rows based on a range of values",
+    "c": "Group rows based on column values",
+    "d": "Combine rows from multiple tables",
+    "correct_choice": "b"
+  },
+  "Which SQL keyword is used to update data in a table?": {
+    "a": "MODIFY",
+    "b": "CHANGE",
+    "c": "ALTER",
+    "d": "UPDATE",
+    "correct_choice": "d"
+  },
+  "In SQL, what is the purpose of the COUNT(*) function?": {
+    "a": "Count the number of non-null values in a column",
+    "b": "Count the total number of rows in a table",
+    "c": "Count the number of distinct values in a column",
+    "d": "Count the number of unique values in a column",
+    "correct_choice": "b"
+  },
+  "Which SQL function is used to format a value with a specified number of decimal places?": {
+    "a": "FORMAT()",
+    "b": "PRECISION()",
+    "c": "DECIMAL()",
+    "d": "ROUND()",
+    "correct_choice": "d"
+  },
+  "What is the purpose of the SQL LEFT JOIN clause?": {
+    "a": "Retrieve data from multiple tables with a single query",
+    "b": "Sort the result set",
+    "c": "Filter rows based on a condition",
+    "d": "Combine rows from multiple tables",
+    "correct_choice": "a"
+  },
+  "Which SQL function is used to calculate the absolute value of a number?": {
+    "a": "ABS()",
+    "b": "VALUE()",
+    "c": "NUM_ABS()",
+    "d": "MAGNITUDE()",
+    "correct_choice": "a"
+  },
+  "What does the SQL IN operator do?": {
+    "a": "Checks if a value is within a range",
+    "b": "Checks if a value matches a pattern",
+    "c": "Checks if a value is equal to any value in a list",
+    "d": "Checks if a value is greater than another value",
+    "correct_choice": "c"
+  },
+  "In SQL, what is the purpose of the GROUP_CONCAT function?": {
+    "a": "Calculate the average value in a column",
+    "b": "Concatenate values from multiple rows into a single string",
+    "c": "Find the maximum value in a column",
+    "d": "Count the number of distinct values in a column",
+    "correct_choice": "b"
+  },
+  "Which SQL keyword is used to create a new table?": {
+    "a": "NEW",
+    "b": "ADD",
+    "c": "CREATE",
+    "d": "INSERT",
+    "correct_choice": "c"
+  },
+    "What is the purpose of the SQL RIGHT JOIN clause?": {
+    "a": "Combine rows from multiple tables",
+    "b": "Filter rows based on a condition",
+    "c": "Retrieve data from multiple tables with a single query",
+    "d": "Sort the result set",
+    "correct_choice": "c"
+  },
+  "Which SQL function is used to calculate the square root of a number?": {
+    "a": "SQRT()",
+    "b": "ROOT()",
+    "c": "SQUARE_ROOT()",
+    "d": "POWER()",
+    "correct_choice": "a"
+  },
+  "What is the purpose of the SQL LIKE operator with the % wildcard?": {
+    "a": "Matches any sequence of characters",
+    "b": "Matches a single character",
+    "c": "Matches a character at the beginning of a string",
+    "d": "Matches a character at the end of a string",
+    "correct_choice": "a"
+  },
+  "Which SQL keyword is used to remove data from a table?": {
+    "a": "REMOVE",
+    "b": "DELETE",
+    "c": "DROP",
+    "d": "ERASE",
+    "correct_choice": "b"
+  },
+  "In SQL, what is the purpose of the DISTINCT keyword with the SELECT statement?": {
+    "a": "Sort the result set",
+    "b": "Group the result set",
+    "c": "Remove duplicate rows from the result set",
+    "d": "Filter the result set",
+    "correct_choice": "c"
+  },
+  "Which SQL function is used to calculate the length of a string?": {
+    "a": "LEN()",
+    "b": "LENGTH()",
+    "c": "SIZE()",
+    "d": "CHAR_LENGTH()",
+    "correct_choice": "b"
+  },
+  "What is the purpose of the SQL IS NULL operator?": {
+    "a": "Checks if a value is not equal to NULL",
+    "b": "Checks if a value is equal to NULL",
+    "c": "Checks if a value is within a range",
+    "d": "Checks if a value matches a pattern",
+    "correct_choice": "b"
+  },
+  "In SQL, what is the purpose of the ORDER BY clause with the DESC keyword?": {
+    "a": "Sort the result set in ascending order",
+    "b": "Sort the result set in descending order",
+    "c": "Filter the result set",
+    "d": "Join multiple tables",
+    "correct_choice": "b"
+  },
+  "Which SQL function is used to round a number to the nearest integer?": {
+    "a": "CEIL()",
+    "b": "ROUND()",
+    "c": "INT()",
+    "d": "FLOOR()",
+    "correct_choice": "b"
+  },
+  "What is the purpose of the SQL AS keyword?": {
+    "a": "Rename a column or table",
+    "b": "Filter the result set",
+    "c": "Sort the result set",
+    "d": "Combine rows from multiple tables",
+    "correct_choice": "a"
+  }
+}
+
+
+

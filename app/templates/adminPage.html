@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="../static/adminPage.css" rel="stylesheet"/>
+</head>
+
+<body>
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <a href="#home" class="w3-bar-item w3-button w3-wide">Goya TC</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-dropdown-hover w3-right w3-hide-small">
+            <button class="w3-button">{{ current_user.name }}</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="{{ url_for('logout') }}" class="w3-bar-item w3-button">Log Out</a>
+            </div>
+        </div>
+        <a
+                href="javascript:void(0)"
+                class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="w3_open()"
+        >
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</div>
+
+<header>
+    <form action="{{ url_for('adminPage') }}" method="POST">
+        {{ form.csrf_token }}
+        <div class="w3-container w3-padding-32">
+            <h1>Student Details</h1>
+            <table class="w3-table">
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Email</th>
+                </tr>
+                {% for student in students %}
+                {% if student.role == "user" %}
+                <tr>
+                    <td>{{ student.name }}</td>
+                    <td>{{ student.surname }}</td>
+                    <td>{{ student.email }}</td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </table>
+
+        </div>
+    </form>
+
+    <form action="{{ url_for('adminPage') }}" method="POST">
+        <div class="w3-container w3-padding-32">
+            <h1>Subject Information</h1>
+            {% for exam in exams %}
+            <form method="POST" action="{{ url_for('adminPage') }}">
+                {{ form.csrf_token }}
+                <input type="hidden" name="exam_id" value="{{ exam.id }}">
+                <table class="w3-table">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Question Count</th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Pass</th>
+                        <th>Points</th>
+                        <th>Button</th>
+                    </tr>
+                    <tr>
+                        <td>{{ exam.subject.name }}</td>
+                        <td>
+                            <input type="number" name="questions_count" min="1"
+                                   placeholder="The max count {{ exam.questions_count }}"
+                                   value="{{ exam.questions_count }}">
+                        <td>{{ exam.student.name }}</td>
+                        <td>{{ exam.student.surname }}</td>
+                        <td>{{ exam.grade }}/40</td>
+                        <td>
+                            <label class="w3-checkbox">
+                                <input type="checkbox" class="w3-check" value="True" {% if exam.grade> 30 %}checked{%
+                                endif %}>
+                                <span class="w3-checkmark"></span>
+                            </label>
+                        </td>
+                        <td>
+                            <button type="submit" class="w3-button button_color">Send</button>
+                        </td>
+
+                </table>
+            </form>
+            {% endfor %}
+        </div>
+    </form>
+</header>
+
+<footer class="w3-center w3-black w3-padding-64">
+    <!-- ... (footer content) ... -->
+</footer>
+
+<script>
+    function openModal() {
+      document.getElementById('addExamModal').style.display = 'block';
+    }
+
+    function closeModal() {
+      document.getElementById('addExamModal').style.display = 'none';
+    }
+</script>
+</body>
+</html>

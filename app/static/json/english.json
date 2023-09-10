@@ -1,0 +1,404 @@
+{
+  "What is the plural form of the word 'child'?": {
+    "a": "childs",
+    "b": "childen",
+    "c": "children",
+    "d": "childies",
+    "correct_choice": "c"
+  },
+  "Which of the following words is an adjective?": {
+    "a": "Run",
+    "b": "Quickly",
+    "c": "Table",
+    "d": "Beautiful",
+    "correct_choice": "d"
+  },
+  "What is the synonym of 'happy'?": {
+    "a": "Sad",
+    "b": "Excited",
+    "c": "Angry",
+    "d": "Tired",
+    "correct_choice": "b"
+  },
+  "What is the opposite of 'empty'?": {
+    "a": "Full",
+    "b": "Blank",
+    "c": "Hollow",
+    "d": "Vacant",
+    "correct_choice": "a"
+  },
+  "What part of speech is the word 'quickly' in the sentence 'She ran quickly.'?": {
+    "a": "Noun",
+    "b": "Adjective",
+    "c": "Verb",
+    "d": "Adverb",
+    "correct_choice": "d"
+  },
+  "Which sentence is in the passive voice?": {
+    "a": "The cat chased the mouse.",
+    "b": "The mouse was chased by the cat.",
+    "c": "She sings beautifully.",
+    "d": "He ate the cake.",
+    "correct_choice": "b"
+  },
+  "What is the correct order of the letters in the alphabet?": {
+    "a": "A, B, C, D, E, F, G",
+    "b": "Z, Y, X, W, V, U, T",
+    "c": "M, N, O, P, Q, R, S",
+    "d": "H, I, J, K, L, M, N",
+    "correct_choice": "a"
+  },
+  "What is a synonym for 'tiny'?": {
+    "a": "Large",
+    "b": "Small",
+    "c": "Huge",
+    "d": "Gigantic",
+    "correct_choice": "b"
+  },
+  "Which of the following is an interjection?": {
+    "a": "Running",
+    "b": "Table",
+    "c": "Wow",
+    "d": "Quickly",
+    "correct_choice": "c"
+  },
+  "What is the past tense of the verb 'go'?": {
+    "a": "Going",
+    "b": "Went",
+    "c": "Gone",
+    "d": "Goed",
+    "correct_choice": "b"
+  },
+  "Which of the following is a compound word?": {
+    "a": "Jump",
+    "b": "Dog",
+    "c": "Basketball",
+    "d": "Run",
+    "correct_choice": "c"
+  },
+  "What is the plural form of 'man'?": {
+    "a": "Mans",
+    "b": "Mens",
+    "c": "Men",
+    "d": "Mannes",
+    "correct_choice": "c"
+  },
+  "What is a synonym for 'brave'?": {
+    "a": "Cowardly",
+    "b": "Fearful",
+    "c": "Courageous",
+    "d": "Timid",
+    "correct_choice": "c"
+  },
+  "Which word is a pronoun?": {
+    "a": "Run",
+    "b": "Quickly",
+    "c": "She",
+    "d": "Book",
+    "correct_choice": "c"
+  },
+  "What is the opposite of 'hot'?": {
+    "a": "Warm",
+    "b": "Cold",
+    "c": "Cool",
+    "d": "Chilly",
+    "correct_choice": "b"
+  },
+  "What is the plural form of 'knife'?": {
+    "a": "Knifes",
+    "b": "Knive",
+    "c": "Knifs",
+    "d": "Knives",
+    "correct_choice": "d"
+  },
+  "Which sentence is in the active voice?": {
+    "a": "The car was driven by John.",
+    "b": "The cake was eaten by her.",
+    "c": "She painted a beautiful picture.",
+    "d": "The book was read by the teacher.",
+    "correct_choice": "c"
+  },
+  "What is a synonym for 'happy'?": {
+    "a": "Sad",
+    "b": "Excited",
+    "c": "Angry",
+    "d": "Joyful",
+    "correct_choice": "b"
+  },
+  "What is the present participle form of the verb 'run'?": {
+    "a": "Run",
+    "b": "Ran",
+    "c": "Running",
+    "d": "Runs",
+    "correct_choice": "c"
+  },
+  "Which of the following is a conjunction?": {
+    "a": "Happy",
+    "b": "Quickly",
+    "c": "And",
+    "d": "Table",
+    "correct_choice": "c"
+  },
+  "What is the past tense of 'go'?": {
+    "a": "Went",
+    "b": "Gone",
+    "c": "Goed",
+    "d": "Going",
+    "correct_choice": "a"
+  },
+  "Which of the following is an adverb?": {
+    "a": "Cat",
+    "b": "Run",
+    "c": "Quickly",
+    "d": "House",
+    "correct_choice": "c"
+  },
+  "What is the plural form of 'child'?": {
+    "a": "Childs",
+    "b": "Childes",
+    "c": "Children",
+    "d": "Child's",
+    "correct_choice": "c"
+  },
+  "Which word is a preposition?": {
+    "a": "Book",
+    "b": "Under",
+    "c": "Sing",
+    "d": "Fast",
+    "correct_choice": "b"
+  },
+  "What is the opposite of 'loud'?": {
+    "a": "Quiet",
+    "b": "Noisy",
+    "c": "Soft",
+    "d": "Loudly",
+    "correct_choice": "a"
+  },
+  "What is the comparative form of 'big'?": {
+    "a": "Biggest",
+    "b": "Bigger",
+    "c": "Bigly",
+    "d": "Bigest",
+    "correct_choice": "b"
+  },
+  "What is a synonym for 'sad'?": {
+    "a": "Happy",
+    "b": "Angry",
+    "c": "Joyful",
+    "d": "Unhappy",
+    "correct_choice": "d"
+  },
+  "What is the past participle form of the verb 'eat'?": {
+    "a": "Eat",
+    "b": "Ate",
+    "c": "Eaten",
+    "d": "Eating",
+    "correct_choice": "c"
+  },
+  "What is the plural form of 'woman'?": {
+    "a": "Womans",
+    "b": "Womens",
+    "c": "Womanses",
+    "d": "Women",
+    "correct_choice": "d"
+  },
+  "Which word is a conjunction?": {
+    "a": "Apple",
+    "b": "And",
+    "c": "Jump",
+    "d": "Quick",
+    "correct_choice": "b"
+  },
+  "What is the antonym of 'fast'?": {
+    "a": "Quick",
+    "b": "Slow",
+    "c": "Speedy",
+    "d": "Rapid",
+    "correct_choice": "b"
+  },
+  "What is the comparative form of 'far'?": {
+    "a": "Farthest",
+    "b": "Farest",
+    "c": "Furthest",
+    "d": "Farrer",
+    "correct_choice": "c"
+  },
+  "Which of the following is a homophone for 'to'?": {
+    "a": "Too",
+    "b": "Two",
+    "c": "Tow",
+    "d": "Toot",
+    "correct_choice": "a"
+  },
+  "What is the superlative form of 'happy'?": {
+    "a": "Happiest",
+    "b": "Happyer",
+    "c": "Happyest",
+    "d": "Happilist",
+    "correct_choice": "a"
+  },
+  "What is a synonym for 'small'?": {
+    "a": "Big",
+    "b": "Tiny",
+    "c": "Large",
+    "d": "Gigantic",
+    "correct_choice": "b"
+  },
+  "What is the present participle form of the verb 'read'?": {
+    "a": "Read",
+    "b": "Reading",
+    "c": "Readed",
+    "d": "Reeding",
+    "correct_choice": "b"
+  },
+  "Which of the following is an article?": {
+    "a": "Run",
+    "b": "The",
+    "c": "Jump",
+    "d": "Happy",
+    "correct_choice": "b"
+  },
+  "What is the synonym of 'brave'?": {
+    "a": "Afraid",
+    "b": "Cowardly",
+    "c": "Fearful",
+    "d": "Courageous",
+    "correct_choice": "d"
+  },
+  "What is the antonym of 'beautiful'?": {
+    "a": "Ugly",
+    "b": "Attractive",
+    "c": "Gorgeous",
+    "d": "Stunning",
+    "correct_choice": "a"
+  },
+  "What is the comparative form of 'good'?": {
+    "a": "Gooder",
+    "b": "Better",
+    "c": "Best",
+    "d": "Goods",
+    "correct_choice": "b"
+  },
+  "What is the base form of the verb 'swam'?": {
+    "a": "Swimmed",
+    "b": "Swam",
+    "c": "Swum",
+    "d": "Swiming",
+    "correct_choice": "b"
+  },
+  "What is the plural form of 'ox'?": {
+    "a": "Oxes",
+    "b": "Oxen",
+    "c": "Oxes",
+    "d": "Oxi",
+    "correct_choice": "b"
+  },
+  "What is the past participle of 'eat'?": {
+    "a": "Eaten",
+    "b": "Ate",
+    "c": "Eating",
+    "d": "Eats",
+    "correct_choice": "a"
+  },
+  "Choose the correct spelling:": {
+    "a": "Recieve",
+    "b": "Recieve",
+    "c": "Recive",
+    "d": "Receive",
+    "correct_choice": "d"
+  },
+  "What is the synonym of 'generous'?": {
+    "a": "Greedy",
+    "b": "Stingy",
+    "c": "Selfish",
+    "d": "Benevolent",
+    "correct_choice": "d"
+  },
+  "Which sentence contains a simile?": {
+    "a": "The waves crashed against the shore.",
+    "b": "Her smile is like sunshine.",
+    "c": "The cat chased the mouse.",
+    "d": "I love to read books.",
+    "correct_choice": "b"
+  },
+  "What is the superlative form of 'small'?": {
+    "a": "Small",
+    "b": "Smallest",
+    "c": "Smaller",
+    "d": "Smalliest",
+    "correct_choice": "b"
+  },
+  "What is the opposite of 'hard'?": {
+    "a": "Easy",
+    "b": "Difficult",
+    "c": "Challenging",
+    "d": "Tough",
+    "correct_choice": "a"
+  },
+  "Which word is an adjective?": {
+    "a": "Run",
+    "b": "Quickly",
+    "c": "Table",
+    "d": "Jump",
+    "correct_choice": "c"
+  },
+  "Choose the correct form of 'to be' in the present tense for 'he'": {
+    "a": "Am",
+    "b": "Is",
+    "c": "Are",
+    "d": "Be",
+    "correct_choice": "b"
+  },
+  "What is the correct order of the words in the sentence: 'ate lunch I'": {
+    "a": "I lunch ate",
+    "b": "Ate I lunch",
+    "c": "Lunch I ate",
+    "d": "I ate lunch",
+    "correct_choice": "d"
+  },
+  "Which of the following is a preposition?": {
+    "a": "Run",
+    "b": "And",
+    "c": "On",
+    "d": "Happy",
+    "correct_choice": "c"
+  },
+  "Which sentence contains a metaphor?": {
+    "a": "The flowers danced in the breeze.",
+    "b": "His smile is as bright as the sun.",
+    "c": "The dog barked loudly.",
+    "d": "The tree's leaves rustled.",
+    "correct_choice": "b"
+  },
+  "What is the comparative form of 'interesting'?": {
+    "a": "Interesting",
+    "b": "Interestinger",
+    "c": "Interester",
+    "d": "More interesting",
+    "correct_choice": "d"
+  },
+  "What is the opposite of 'happy'?": {
+    "a": "Sad",
+    "b": "Joyful",
+    "c": "Excited",
+    "d": "Content",
+    "correct_choice": "a"
+  },
+  "Which word is a verb?": {
+    "a": "Chair",
+    "b": "Quickly",
+    "c": "Jump",
+    "d": "Tall",
+    "correct_choice": "c"
+  },
+  "Choose the correct form of 'to be' in the present tense for 'they'": {
+    "a": "Am",
+    "b": "Is",
+    "c": "Are",
+    "d": "Be",
+    "correct_choice": "c"
+  }
+}
+
+
+
