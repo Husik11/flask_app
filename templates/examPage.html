@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exam Page</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="{{ url_for('static', filename='examPage.css') }}" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <a href="{{ url_for('home') }}" class="w3-bar-item w3-button w3-wide">Goya TC</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</div>
+
+<header>
+    <div class="w3-container w3-padding-64">
+        <form action="{{ url_for('examPage', exam_id=exam_id) }}" method="POST">
+            {% for question in questions %}
+            <h2>{{ question.exam.name }}</h2>
+            <p>{{ question.question_text }}</p>
+            {% set choices = json.loads(question.choices) %}
+            {% for choice_key, choice_value in choices.items() %}
+                {% if choice_key != 'correct_choice' %}
+                <label>
+                    <input type="radio" name="answer{{ question.id }}" value="{{ choice_key }}"/>
+                    {{ choice_value }}
+                </label>
+                {% endif %}
+            {% endfor %}
+            {% endfor %}
+            <button type="submit" class="w3-button button_color">Submit Exam</button>
+        </form>
+    </div>
+</header>
+
+<footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey">
+        <i class="fa fa-arrow-up w3-margin-right"></i>To the top
+    </a>
+    <div class="w3-xlarge w3-section">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+</footer>
+
+<!-- Add your modal HTML and JavaScript here if needed -->
+
+<script>
+    function openModal() {
+      document.getElementById('addExamModal').style.display = 'block';
+    }
+
+    function closeModal() {
+      document.getElementById('addExamModal').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>

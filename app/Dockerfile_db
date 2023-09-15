@@ -1,0 +1,7 @@
+FROM postgres:12
+
+ENV POSTGRES_PASSWORD=qwerty
+
+ENV POSTGRES_DB=students_db
+
+EXPOSE 5432

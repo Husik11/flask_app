@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+            href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+            rel="stylesheet"
+            id="bootstrap-css"
+    />
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+            rel="stylesheet"
+    />
+    <link href="{{ url_for('static', filename='signUp.css') }}" rel="stylesheet"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="col-md-4 col-md-offset-4" id="login">
+    <section id="inner-wrapper" class="login">
+        <article>
+
+            <div class="sign-in-header">
+                <a href="{{ url_for('home') }}">
+                    <i class="fa fa-home home__icons" aria-hidden="true"></i>
+                </a>
+                Registration page.
+            </div>
+            <form action="{{ url_for('signUp') }}" method="POST">
+                {{ form.csrf_token }}
+                <div class="form-group">
+                    <div class="input-group">
+                <span class="input-group-addon">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                </span>
+                        {{ form.name(type="text", class="form-control", placeholder="Name") }}
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="input-group">
+                <span class="input-group-addon"
+                ><i class="fa fa-user-circle" aria-hidden="true"></i>
+                        </span>
+                        {{ form.surname(type="text", class="form-control", placeholder="Surname") }}
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="input-group">
+                <span class="input-group-addon"
+                ><i class="fa fa-envelope"></i
+                ></span>
+                        {{ form.email(type="text", class="form-control", placeholder="Email Address") }}
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                        {{ form.password(class="form-control", placeholder="Password") }}
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                        {{ form.confirm_password(class="form-control", placeholder="Confirm password") }}
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success btn-block">
+                    Register
+                </button>
+                <div class="forgot">
+                    <a href="{{ url_for('signIn') }}">I have a user.</a>
+                </div>
+            </form>
+        </article>
+    </section>
+</div>
+</body>
+</html>
